@@ -1,0 +1,36 @@
+.hobbies-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 70px 50px;
+}
+.hobbies-header{
+    width: 100%;
+    text-align: center;
+    color: #266989;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}
+.hobbies-body{
+    display: flex;
+    height: 250px;
+}
+.each-hobby{
+    width: 400px;
+    margin-top: 15px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.cricket{
+    background: url(../../images/cricket.png);
+    background-size: 160px 170px;
+}
+.basketball{
+    background: url(../../images/basketball.jpg);
+    background-size: 160px 170px;
+}
+.singing{
+    background: url(../../images/singing.png);
+    background-size: 160px 170px;
+}

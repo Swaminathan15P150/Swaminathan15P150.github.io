@@ -1,0 +1,66 @@
+.skills-main{
+    /* height: 500px; */
+    padding: 25px 70px 50px;
+}
+.skills-header{
+    text-align: center;
+    font-size: 40px;
+    height: 60px;
+    color: #266989;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0px;
+}
+.skills-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.skills-top{
+    display: flex;
+    height: 200px;
+    /* padding: 10px 70px; */
+}
+/* .skills-bottom{
+    display: flex;
+    height: 200px;
+    padding: 10px 10%;
+} */
+.each-top-skill{
+    width: 240px;
+    margin-top: 15px;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+}
+.html-skill{
+    background: url(../../images/HTML.png);
+    background-size: 120px 150px;
+}
+.css-skill{
+    background: url(../../images/css3.svg);
+    background-size: 160px 160px;
+}
+.js-skill{
+    background: url(../../images/Js.png);
+    background-size: 140px 150px;
+}
+.react-skill{
+    background: url(../../images/react.jpg);
+    background-size: 150px 150px;
+}
+/* .each-bottom-skill{
+    width: 380px;
+    margin-top: 15px;
+} */
+.jquery-skill{
+    background: url(../../images/jquery.png);
+    background-size: 150px 150px;
+}
+.bs-skill{
+    background: url(../../images/bootstrap.png);
+    background-size: 150px 150px;
+}
+.java-skill{
+    background: url(../../images/core-java.png);
+    background-size: 150px 150px;
+}

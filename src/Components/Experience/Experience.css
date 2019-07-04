@@ -1,0 +1,40 @@
+
+.experience-main{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    background: url(../../images/experience-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* height: 450px; */
+    padding: 10px 70px 100px;
+}
+.experience-header{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.experience-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 90px
+}
+.each-exp-details{
+    display: flex;
+    margin: 10px 0px !important;
+    align-items: center;
+}
+.each-icon{
+    margin-right: 15px;
+    font-size: 20px;
+}
+.each-text{
+    font-size: 25px;
+    color: white;
+}

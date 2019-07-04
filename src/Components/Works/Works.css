@@ -1,0 +1,19 @@
+.works-main{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    background: url(../../images/works-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* height: 450px; */
+    padding: 10px 30px 70px;
+}
+.works-header{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}

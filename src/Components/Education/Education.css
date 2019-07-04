@@ -1,0 +1,51 @@
+
+.education-main{
+    padding: 30px 70px;
+    /* height: 330px; */
+}
+.education-header{
+    text-align: center;
+    font-size: 40px;
+    height: 60px;
+    color: #266989;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0px 10px 0px;
+}
+.education-details{
+    display: flex;
+    /* padding: 1rem 1rem 1rem 1rem; */
+    flex-direction: row;
+    align-items: center;
+}
+.each-education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    /* height: 200px; */
+    /* margin-left: 40px; */
+    border-radius: 7px;
+    /* font-size: 1.5vw; */
+    background-color: #2196F3;
+    border-left: solid 10px #00BCD4;
+    padding: 35px 0px;
+}
+.each-education:not(:first-child){
+    margin-left:100px;
+}
+.header{
+    width:100%;
+    color: white;
+    text-align: center;
+    font-size:35px;
+    font-weight: bold;
+    
+}
+.percentage{
+    /* margin-top: 15px; */
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
