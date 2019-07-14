@@ -1,36 +1,101 @@
 
 .home-main{
-    display: flex;
-    align-items: center;
+    position: relative;
     background: url(../../images/home-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    /* height: 450px; */
-    padding: 100px 70px;
+    min-height: auto;
+    padding: 4rem 0px;
+}
+.home-section{
+    display: flex;
+    align-items: center;
+    max-width: 90rem;
+    /* width: 100%; */
+    margin: 0 auto;
+    padding: 0px 70px;
 }
 .profile-photo{
     width: 30%;
+    float: left;
 }
 .photo{
     width: 200px;
     height: 200px;
-    text-align: center;
-    /* margin: 4rem 1.5rem; */
-    /* margin-left: 20%; */
     background: white;
     border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: -webkit-box;
     background: url(../../images/Profile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    margin: 0px auto;
 }
 .content{
     color: white;
     font-size: 30px;
-    padding: 2rem;
+    padding: 2rem 0px;
     text-align: center;
+    width:70%;
+    float: left;
+}
+
+
+
+@media screen and (max-width:1200px){
+    .home-main{
+        padding: 2rem 0px;
+    }
+    .home-section{
+        padding: 0px 20px;
+    }
+    .photo{
+        width: 180px;
+        height: 180px;
+    }
+    .content{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .photo{
+        width: 160px;
+        height: 160px;
+    }
+    .content{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .home-section{
+        padding: 0px 10px;
+    }
+    .photo{
+        width: 140px;
+        height: 140px;
+    }
+    .content{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .home-section{
+        flex-direction: column;
+    }
+    .profile-photo{
+        width: 100%;
+    }
+    .photo{
+        width: 120px;
+        height: 120px;
+    }
+    .content{
+        width: 100%;
+        padding: 1rem 0px;
+        font-size: 18px;
+    }
 }

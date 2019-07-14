@@ -1,66 +1,117 @@
+*{
+    box-sizing: inherit;
+}
 .skills-main{
-    /* height: 500px; */
-    padding: 25px 70px 25px;
+    width: 100%;
+    position: relative;
+    min-height: auto;
+    padding: 1rem 0px;
+}
+.skills-section{
+    max-width: 90rem;
+    /* width: 100%; */
+    margin: 0px auto;
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 .skills-header{
+    width: 100%;
     text-align: center;
     font-size: 40px;
     height: 60px;
     color: #266989;
     font-weight: bold;
     line-height: 1.5;
-    margin: 10px 0px;
 }
 .skills-body{
     display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.each-skill{
+    display: flex;
     flex-direction: column;
-    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 150px;
 }
-.skills-top{
-    display: flex;
-    height: 200px;
-    /* padding: 10px 70px; */
+.skills-body > div {
+    padding: 2rem 3rem 2rem 0px;
+    flex: 0 0 auto;
+    width: 14.25%;
 }
-/* .skills-bottom{
-    display: flex;
-    height: 200px;
-    padding: 10px 10%;
-} */
-.each-top-skill{
-    width: 240px;
-    margin-top: 15px;
-    background-repeat: no-repeat !important;
-    background-position: right !important;
+.each-skill > i{
+    margin-bottom: 10px;
 }
-.html-skill{
-    background: url(../../images/HTML.png);
-    background-size: 120px 150px;
+.each-skill > img{
+    margin-bottom: 10px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    border-style: none;
 }
-.css-skill{
-    background: url(../../images/css3.svg);
-    background-size: 160px 160px;
+
+@media screen and (max-width:1200px){
+    .skills-header{
+        font-size: 35px;
+    }
+    .skills-section{
+        padding: 0px 20px;
+    }
+    .each-skill{
+        font-size: 120px;
+    }
 }
-.js-skill{
-    background: url(../../images/Js.png);
-    background-size: 140px 150px;
+
+@media screen and (max-width:992px){
+    .skills-header{
+        font-size: 32px;
+    }
+    .skills-body > div{
+        width: 13.25%;
+    }
 }
-.react-skill{
-    background: url(../../images/react.jpg);
-    background-size: 150px 150px;
+
+@media screen and (max-width:768px){
+    .skills-section{
+        padding: 0px 10px;
+    }
+    .skills-header{
+        font-size: 30px;
+    }
+    .skills-body > div{
+        width: 15.25%;
+    }
+    .each-skill{
+        font-size: 100px;
+    }
 }
-/* .each-bottom-skill{
-    width: 380px;
-    margin-top: 15px;
-} */
-.jquery-skill{
-    background: url(../../images/jquery.png);
-    background-size: 150px 150px;
-}
-.bs-skill{
-    background: url(../../images/bootstrap.png);
-    background-size: 150px 150px;
-}
-.java-skill{
-    background: url(../../images/core-java.png);
-    background-size: 150px 150px;
+
+@media screen and (max-width:576px){
+    .skills-header{
+        font-size: 25px;
+    }
+    .skills-body > div{
+        width: 50%;
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+    .each-skill{
+        font-size: 80px;
+    }
+    .each-skill > img{
+        max-width: 50%;
+        margin-bottom: 0px;
+    }
+
 }

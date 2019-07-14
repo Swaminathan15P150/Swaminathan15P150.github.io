@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div style = {{height : '100%'}}>
         <Toolbar sideBarHandler = {this.sideBarToggle}/>
-        <div className = "main-container">
+        <div className = "main-container" style={{paddingTop:'56px'}}>
           <Home />
           <Education />
           <Experience />

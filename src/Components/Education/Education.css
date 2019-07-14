@@ -1,7 +1,15 @@
 
 .education-main{
-    padding: 30px 70px;
-    /* height: 330px; */
+    width: 100%;
+    position: relative;
+    min-height: auto;
+    padding: 2rem 0px;
+}
+.education-section{
+    max-width: 90rem;
+    /* width: 100%; */
+    padding: 0px 70px;
+    margin: 0px auto;
 }
 .education-header{
     text-align: center;
@@ -13,6 +21,7 @@
     margin: 0px 10px 0px;
 }
 .education-details{
+    width: 100%;
     display: flex;
     /* padding: 1rem 1rem 1rem 1rem; */
     flex-direction: row;
@@ -22,14 +31,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px;
-    /* height: 200px; */
+    width: 30%;
+    height: 170px;
     /* margin-left: 40px; */
     border-radius: 7px;
     /* font-size: 1.5vw; */
-    background-color: #2196F3;
-    border-left: solid 10px #00BCD4;
-    padding: 35px 0px;
+    border-left: solid 10px #5ab0d7;
+    padding: 10px 0px;
+    float: left;
+    background-image: linear-gradient(205deg, #0d0d0d, #05c4dc);
 }
 .each-education:not(:first-child){
     margin-left:100px;
@@ -40,12 +50,92 @@
     text-align: center;
     font-size:35px;
     font-weight: bold;
-    
+    margin-top: 15px;
 }
 .percentage{
+    width: 100%;
     /* margin-top: 15px; */
     color: white;
     text-align: center;
     font-size: 40px;
 }
 
+
+@media screen and (max-width:1200px){
+    .each-education:not(:first-child){
+        margin-left:50px;
+    }
+    .education-section{
+        padding: 0px 20px;
+    }
+    .education-header{
+        font-size: 35px;
+    }
+    .header{
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    .percentage{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .each-education:not(:first-child){
+        margin-left:25px;
+    }
+    .education-header{
+        font-size: 32px;
+    }
+    .each-education{
+        height: 150px;
+    }
+    .header{
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    .percentage{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .education-section{
+        padding: 0px 10px;
+    }
+    .education-header{
+        font-size: 30px;
+    }
+    .each-education{
+        height: 125px;
+    }
+    .header{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .percentage{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .education-details{
+        flex-direction: column;
+    }
+   .each-education{
+       width: 90%;
+       margin-left: 0px !important;
+       margin-bottom: 15px;
+   }
+   .education-header{
+       font-size: 25px;
+   }
+   .header{
+       font-size: 20px;
+       margin-top: 25px;
+   }
+   .percentage{
+       font-size: 24px;
+   }
+    
+}

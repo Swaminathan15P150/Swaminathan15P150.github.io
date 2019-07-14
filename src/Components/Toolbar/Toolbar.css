@@ -1,12 +1,18 @@
 
 .toolbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    background: #404040;
+    background-image: linear-gradient(178deg, #0d0d0d, #556b6d);
     height: 56px;
-    /* padding: 0px 70px; */
-    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.31); */
+    z-index: 100;
 }
 .toolbar-navigation{
+    max-width: 90rem;
+    /* width: 100%; */
+    margin: 0px auto;
     display: flex;
     height: 100%;
     align-items: center;
@@ -40,4 +46,35 @@ p{
 .toolbar-navigation-items a:hover,.toolbar-navigation-items a:active{
     color: grey;
 
+}
+
+
+@media screen and (max-width:1200px){
+    .toolbar-navigation{
+        padding: 0px 20px;
+    }
+    .toolbar-logo a{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .toolbar-logo a{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .toolbar-navigation{
+        padding: 0px 10px;
+    }
+    .toolbar-logo a{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .toolbar-logo a{
+        font-size: 18px;
+    }
 }
