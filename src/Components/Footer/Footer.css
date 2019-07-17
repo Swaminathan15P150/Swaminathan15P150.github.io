@@ -68,11 +68,11 @@
         flex-direction: column;
     }
     .each-contact-top a{
-        font-size: 12px;
+        font-size: 15px;
     }
     .each-contact-bottom{
         margin-left: 0px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .each-contact-bottom:not(:last-child){
         margin-bottom: 10px;
