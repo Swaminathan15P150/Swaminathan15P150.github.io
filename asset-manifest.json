@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.6c2f5c8d.chunk.css",
+    "main.css": "/Resume/static/css/main.aacd6549.chunk.css",
     "main.js": "/Resume/static/js/main.ed22c176.chunk.js",
     "main.js.map": "/Resume/static/js/main.ed22c176.chunk.js.map",
     "runtime~main.js": "/Resume/static/js/runtime~main.e4c3d92c.js",
@@ -8,9 +8,9 @@
     "static/js/2.6efc73d3.chunk.js": "/Resume/static/js/2.6efc73d3.chunk.js",
     "static/js/2.6efc73d3.chunk.js.map": "/Resume/static/js/2.6efc73d3.chunk.js.map",
     "index.html": "/Resume/index.html",
-    "precache-manifest.2b5a5d2822e649cca5ef304fef35ff33.js": "/Resume/precache-manifest.2b5a5d2822e649cca5ef304fef35ff33.js",
+    "precache-manifest.bab6dd0cb33b79396f457c826b32bd8d.js": "/Resume/precache-manifest.bab6dd0cb33b79396f457c826b32bd8d.js",
     "service-worker.js": "/Resume/service-worker.js",
-    "static/css/main.6c2f5c8d.chunk.css.map": "/Resume/static/css/main.6c2f5c8d.chunk.css.map",
+    "static/css/main.aacd6549.chunk.css.map": "/Resume/static/css/main.aacd6549.chunk.css.map",
     "static/media/index.css": "/Resume/static/media/Cairo-Regular.ba23baa3.ttf",
     "static/media/Home.css": "/Resume/static/media/home-bg.82bfe99a.jpg",
     "static/media/Hobbies.css": "/Resume/static/media/singing.8761d9d4.png",
